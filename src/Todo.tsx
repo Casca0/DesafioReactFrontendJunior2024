@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 import DownwardArrow from './assets/DownwardArrow';
 
-export default function App() {
+export default function Todo() {
 	const inputRef = useRef<HTMLInputElement | null>(null);
 
 	const { pathname: route } = useLocation();
